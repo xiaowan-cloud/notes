@@ -33,4 +33,5 @@
 >> + javac.exe：执行字节码文件
 >> + Path配置JAVA_HOME\bin：因为这个目录有java.exe javac.exe
 >> + Path配置JAVA_HOME\jre\bin：提供运行环境
-> * 配置CLASSPATH：就是jdk目录下的jar位置，这些jar开发时可能会需要
+> * 配置CLASSPATH：就是jdk目录下的jar位置，帮助java程序执行时找到对应的jar
+> (这些jar里边都是字节码文件.class)
